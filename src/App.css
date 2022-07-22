@@ -39,8 +39,8 @@
     border-radius: 50%;
     margin-left: 16rem;
     margin-top: -3rem;
-    width:"7%";
-     height:"80rem";
+    width: "7%";
+    height: "80rem";
   }
 
   .p {
@@ -343,8 +343,8 @@
     border-radius: 50%;
     margin-left: 8rem;
     margin-top: -3rem;
-    width:60px ;
-    height:60px;
+    width: 60px;
+    height: 60px;
   }
 
   .p {
@@ -527,7 +527,6 @@
   .footer {
     background-color: #222831;
     margin-top: 25rem;
-   
 
     height: 20rem;
   }
@@ -542,14 +541,11 @@
   }
 
   a {
-  
     margin-top: 30px;
   }
 
   .content-footer {
-   
     color: white;
-    
 
     display: grid;
     size: small;
@@ -562,8 +558,6 @@
     margin-top: 30px;
     text-align: center;
     margin-left: -3rem;
-   
-    
   }
 
   li {
