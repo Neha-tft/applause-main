@@ -1,0 +1,609 @@
+@media (min-width: 971px) {
+  .container {
+    margin-top: 0.9rem;
+  }
+
+  .nav {
+    display: flex;
+    justify-content: space-between;
+
+    height: 60px;
+    color: black;
+  }
+
+  .nav-item {
+    display: flex;
+    margin-top: -60px;
+    color: black;
+  }
+
+  .nav-link {
+    margin-left: -30px;
+    margin-top: 75px;
+  }
+
+  .logo {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    margin-left: 10px;
+    margin-top: 15px;
+  }
+
+  .img {
+    margin-left: -90px;
+    margin-top: 1rem;
+  }
+
+  .image_anime {
+    border-radius: 50%;
+    margin-left: 16rem;
+    margin-top: -3rem;
+    width:"7%";
+     height:"80rem";
+  }
+
+  .p {
+    font-size: x-large;
+    margin-left: 16rem;
+    padding-top: 1.2%;
+  }
+
+  .p_2 {
+    margin-left: 16rem;
+    padding-top: 1%;
+  }
+
+  .btn-1 {
+    background-color: #e7e7e7;
+    color: black;
+    margin-left: 16rem;
+    margin-top: 1%;
+    border: grey;
+    border-radius: 4px;
+
+    padding: 10px 20px;
+    margin-right: 15px;
+  }
+
+  .btn-2 {
+    background-color: #e7e7e7;
+    border: grey;
+    border-radius: 4px;
+    width: 140px;
+    padding: 10px 20px;
+  }
+
+  .work {
+    margin-left: 16rem;
+    margin-top: 2.5%;
+  }
+
+  .read {
+    text-decoration: underline wavy;
+    color: red;
+  }
+
+  .book {
+    text-decoration: underline wavy;
+    color: red;
+  }
+
+  .card {
+    margin-top: -33%;
+    width: 16%;
+    margin-left: 800px;
+    height: 370px;
+
+    border-radius: 20px;
+  }
+  ul {
+    list-style-type: none;
+  }
+
+  .place {
+    margin-left: 2rem;
+    margin-top: 3rem;
+  }
+
+  .style {
+    text-decoration: none;
+
+    margin-bottom: 10px;
+    margin-left: -10px;
+  }
+  .name {
+    margin-left: 10px;
+    text-decoration: none;
+    color: black;
+  }
+  .minus {
+    float: right;
+    margin-right: 10px;
+  }
+  .btn4 {
+    margin-left: 20px;
+  }
+  .card_2 {
+    margin-top: 6.5rem;
+    margin-right: 12rem;
+    background-repeat: no-repeat;
+
+    background-image: url("../public/applause1.jpeg");
+    margin-left: 16rem;
+    width: 47rem;
+    height: 10rem;
+    background-size: cover;
+    border-radius: 20px;
+    box-shadow: 0px 5px 5px 0px rgb(185, 98, 185);
+  }
+
+  .text-bg {
+    color: white;
+    font-weight: bold;
+    margin-left: 2rem;
+    margin-top: 3rem;
+  }
+
+  .text {
+    color: white;
+    margin-left: 2rem;
+    margin-top: 3rem;
+  }
+
+  .txt {
+    color: white;
+    margin-left: 2rem;
+    margin-top: 1rem;
+  }
+
+  .events {
+    margin-top: 60px;
+    margin-left: 16rem;
+  }
+
+  .card_3 {
+    display: flex;
+    height: 155px;
+    margin-top: 50px;
+    width: 500px;
+    margin-left: 14rem;
+  }
+
+  .card_3:hover {
+    animation: animate 0.5s linear forwards;
+    border: 2px solid rgb(255, 190, 69);
+    cursor: pointer;
+  }
+
+  @keyframes animate {
+    0% {
+      transform: rotate(0deg);
+    }
+
+    100% {
+      transform: rotate(-5deg);
+    }
+  }
+
+  .zapp {
+    margin-left: 10px;
+
+    height: 150px;
+    width: 200px;
+    border-radius: 5%;
+  }
+
+  .title {
+    margin-top: 2rem;
+    margin-left: 1rem;
+
+    clear: right;
+  }
+
+  .title_2 {
+    margin-top: 10px;
+    margin-left: 1rem;
+    font-size: small;
+  }
+
+  .btn-3 {
+    clear: both;
+    border-radius: 30px;
+    margin-top: 1rem;
+
+    width: 7.5rem;
+    height: 2rem;
+    background-color: rgb(245, 138, 138);
+    color: white;
+    border: white;
+    margin-left: 1rem;
+  }
+
+  .footer {
+    background-color: #222831;
+    margin-top: 25rem;
+    width: 100%;
+
+    height: 20rem;
+  }
+
+  .social-link {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    gap: 2rem;
+    size: 10px;
+    font-size: small;
+  }
+
+  a {
+    margin-left: 30px;
+    margin-top: 100px;
+  }
+
+  .content-footer {
+    margin-left: 25rem;
+    color: white;
+    clear: both;
+
+    display: flex;
+  }
+
+  .row1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 30px;
+    text-align: center;
+    margin-left: -5rem;
+    gap: 1.5rem;
+  }
+
+  li {
+    margin-left: 30px;
+  }
+
+  .copyright {
+    color: white;
+
+    text-align: center;
+  }
+  .btn-4 {
+    clear: both;
+    display: flex;
+    width: 25px;
+    height: 30px;
+    margin-left: 90px;
+    border-radius: 50%;
+  }
+  .box {
+    margin-top: 100px;
+
+    padding: 15px;
+    margin-left: 440px;
+    width: 250px;
+    height: 308px;
+    border: 1px solid rgb(11, 11, 12);
+
+    align-items: center;
+  }
+  .form-input {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: "Trattatello, fantasy";
+    padding: 10px;
+    margin-bottom: 10px;
+    color: black;
+  }
+  .form-button {
+    margin-left: 70px;
+  }
+}
+
+@media (max-width: 400px) {
+  .container {
+    margin-top: 0.9rem;
+  }
+
+  .nav {
+    display: flex;
+    justify-content: space-between;
+
+    height: 60px;
+    color: black;
+  }
+
+  .nav-item {
+    display: flex;
+    margin-top: -60px;
+    color: black;
+  }
+
+  .nav-link {
+    /* margin-left: -30px; */
+    margin-top: 75px;
+  }
+
+  .logo {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    margin-left: 10px;
+    margin-top: 15px;
+  }
+
+  .img {
+    margin-left: -90px;
+    margin-top: 1rem;
+  }
+
+  .image_anime {
+    border-radius: 50%;
+    margin-left: 8rem;
+    margin-top: -3rem;
+    width:60px ;
+    height:60px;
+  }
+
+  .p {
+    font-size: large;
+    margin-left: 1rem;
+    padding-top: 1.2%;
+  }
+
+  .p_2 {
+    margin-left: 1rem;
+    padding-top: 1%;
+  }
+
+  .btn-1 {
+    background-color: #e7e7e7;
+    color: black;
+    margin-left: 3rem;
+    margin-top: 1%;
+    border: grey;
+    border-radius: 4px;
+
+    padding: 10px 20px;
+    margin-right: 15px;
+  }
+
+  .btn-2 {
+    background-color: #e7e7e7;
+    border: grey;
+    border-radius: 4px;
+    width: 140px;
+    padding: 10px 20px;
+  }
+
+  .work {
+    margin-left: 3.5rem;
+    margin-top: 4%;
+  }
+
+  .read {
+    text-decoration: underline wavy;
+    color: red;
+  }
+
+  .book {
+    text-decoration: underline wavy;
+    color: red;
+  }
+
+  .card {
+    margin-top: 10%;
+    width: 55%;
+    margin-left: 5rem;
+    height: 300px;
+
+    border-radius: 20px;
+  }
+  ul {
+    list-style-type: none;
+  }
+
+  .place {
+    margin-left: 2rem;
+    margin-top: 1.5rem;
+  }
+
+  .style {
+    text-decoration: none;
+
+    margin-bottom: 10px;
+    margin-left: -10px;
+  }
+  .name {
+    margin-left: 10px;
+    text-decoration: none;
+    color: black;
+  }
+  .minus {
+    float: right;
+    margin-right: 10px;
+  }
+  .btn4 {
+    margin-left: 20px;
+  }
+  .card_2 {
+    margin-top: 2rem;
+    margin-right: 12rem;
+    background-repeat: no-repeat;
+
+    background-image: url("../public/applause1.jpeg");
+    margin-left: 1rem;
+    width: 20rem;
+    height: 10rem;
+    background-size: cover;
+    border-radius: 20px;
+    box-shadow: 0px 5px 5px 0px rgb(185, 98, 185);
+  }
+
+  .text-bg {
+    color: white;
+    font-weight: bold;
+    margin-left: 2rem;
+    margin-top: 3rem;
+  }
+
+  .text {
+    color: white;
+    margin-left: 2rem;
+    margin-top: 3rem;
+  }
+
+  .txt {
+    color: white;
+    margin-left: 2rem;
+    margin-top: 1rem;
+  }
+
+  .events {
+    margin-top: 40px;
+    margin-left: 1rem;
+  }
+
+  .card_3 {
+    display: flex;
+    height: 135px;
+    margin-top: 40px;
+    width: 300px;
+    margin-left: -1rem;
+  }
+
+  .card_3:hover {
+    animation: animate 0.5s linear forwards;
+    border: 2px solid rgb(255, 190, 69);
+    cursor: pointer;
+  }
+
+  @keyframes animate {
+    0% {
+      transform: rotate(0deg);
+    }
+
+    100% {
+      transform: rotate(-5deg);
+    }
+  }
+
+  .zapp {
+    margin-left: 10px;
+
+    height: 130px;
+    width: 150px;
+    border-radius: 5%;
+  }
+
+  .title {
+    margin-top: 1rem;
+    margin-left: -1rem;
+
+    clear: right;
+  }
+
+  .title_2 {
+    margin-top: 10px;
+    margin-left: -1rem;
+    font-size: small;
+  }
+
+  .btn-3 {
+    clear: both;
+    border-radius: 30px;
+    margin-top: 1rem;
+
+    width: 7.5rem;
+    height: 2rem;
+    background-color: rgb(245, 138, 138);
+    color: white;
+    border: white;
+    margin-left: -1rem;
+  }
+
+  .footer {
+    background-color: #222831;
+    margin-top: 25rem;
+   
+
+    height: 20rem;
+  }
+
+  .social-link {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    gap: 2rem;
+    size: 10px;
+    font-size: small;
+  }
+
+  a {
+  
+    margin-top: 30px;
+  }
+
+  .content-footer {
+   
+    color: white;
+    
+
+    display: grid;
+    size: small;
+  }
+
+  .row1 {
+    display: block;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 30px;
+    text-align: center;
+    margin-left: -3rem;
+   
+    
+  }
+
+  li {
+    margin-left: 30px;
+  }
+
+  .copyright {
+    color: white;
+
+    text-align: center;
+  }
+  .btn-4 {
+    clear: both;
+    display: flex;
+    width: 25px;
+    height: 30px;
+    margin-left: 90px;
+    border-radius: 50%;
+  }
+  .box {
+    margin-top: 100px;
+
+    padding: 15px;
+    margin-left: 440px;
+    width: 250px;
+    height: 308px;
+    border: 1px solid rgb(11, 11, 12);
+
+    align-items: center;
+  }
+  .form-input {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: "Trattatello, fantasy";
+    padding: 10px;
+    margin-bottom: 10px;
+    color: black;
+  }
+  .form-button {
+    margin-left: 70px;
+  }
+}
