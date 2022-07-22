@@ -1,15 +1,18 @@
 import React from "react";
+import bg from "../images/bg.avif"
+import anime from "../images/anime.jfif"
+import book from "../images/book.webp"
 
 function Banner() {
   return (
     <>
       <div className="img">
-        <img src="./bg.avif" alt="" width="100%" height="290rem" />
+        <img src={bg} alt="" width="100%" height="290rem" />
       </div>
 
       <img
         className="image_anime"
-        src="./anime.jfif"
+        src={anime}
         alt=""
         width="8%"
         height="80rem"
@@ -43,7 +46,7 @@ function Banner() {
       <div className="work">
         {" "}
         Neha is <span className="read">&ensp;reading book&ensp;</span>
-        <img className="book" src="book.webp" alt="" height="40px" /> 12 july
+        <img className="book" src={book} alt="" height="40px" /> 12 july
       </div>
     </>
   );

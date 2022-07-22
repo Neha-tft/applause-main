@@ -1,4 +1,5 @@
 import React from "react";
+import concert from "../images/concert.jfif"
 import { useNavigate } from "react-router-dom";
 function UpcomingEventList(props) {
   const navigate = useNavigate();
@@ -7,15 +8,15 @@ function UpcomingEventList(props) {
   }
   return (
     <div className="card_3">
-      <img className="zapp" src="./concert.jfif" alt="Zapp" height="160rem" />
+      <img className="zapp" src={concert} alt="Zapp" height="160rem" />
       <li>
-        {" "}
+        
         <div className="title">{props.title}</div>
         <div className="title_2">Free Event {props.description}</div>
         <button className="btn-3" onClick={Event}>
-          {" "}
+          
           <b> performance</b>
-        </button>{" "}
+        </button>
       </li>
     </div>
   );

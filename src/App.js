@@ -27,7 +27,7 @@ function App() {
             </>
           }
         />
-        <Route path="/UpcomingEvent" element={<AddEvent />}></Route>
+        {/* <Route path="/UpcomingEvent" element={<AddEvent />}></Route> */}
       </Routes>
     </div>
   );

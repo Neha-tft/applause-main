@@ -1,10 +1,11 @@
 import React from 'react'
+import clap from "../images/clap.png"
 
 function Nav() {
     return (
         <div className="nav">
             <div className="logo">
-                <img src="./clap.png" alt="" width="50px" /><h4>applause</h4>
+                <img src={clap} alt="" width="50px" /><h4>applause</h4>
             </div>
             <ul className="nav justify-content-end">
                 <li className="nav-item">
