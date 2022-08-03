@@ -1,22 +1,23 @@
 {
-  "files": {
-    "main.css": "/applause-main/static/css/main.5324ce6a.css",
-    "main.js": "/applause-main/static/js/main.64c35a9e.js",
-    "static/js/787.2f4aca90.chunk.js": "/applause-main/static/js/787.2f4aca90.chunk.js",
-    "static/media/clap.png": "/applause-main/static/media/clap.fde40ecb5fadfce1049a.png",
-    "static/media/bg.avif": "/applause-main/static/media/bg.e64e2761770742ef146a.avif",
-    "static/media/del.png": "/applause-main/static/media/del.c1e1fc0d9c89772cb479.png",
-    "static/media/concert.jfif": "/applause-main/static/media/concert.c36eaa183a03dcc44219.jfif",
-    "static/media/applause1.jpeg": "/applause-main/static/media/applause1.88d6e66a4fb7fbf2e7f3.jpeg",
-    "static/media/anime.jfif": "/applause-main/static/media/anime.1d6d846d76cfa330d1b4.jfif",
-    "index.html": "/applause-main/index.html",
-    "static/media/book.webp": "/applause-main/static/media/book.31d6cfe0d16ae931b73c.webp",
-    "main.5324ce6a.css.map": "/applause-main/static/css/main.5324ce6a.css.map",
-    "main.64c35a9e.js.map": "/applause-main/static/js/main.64c35a9e.js.map",
-    "787.2f4aca90.chunk.js.map": "/applause-main/static/js/787.2f4aca90.chunk.js.map"
-  },
-  "entrypoints": [
-    "static/css/main.5324ce6a.css",
-    "static/js/main.64c35a9e.js"
-  ]
+  "main.css": "/applause-main/static/css/main.bcf83608.chunk.css",
+  "main.js": "/applause-main/static/js/main.79b0a939.chunk.js",
+  "main.js.map": "/applause-main/static/js/main.79b0a939.chunk.js.map",
+  "static/js/1.d6ad0681.chunk.js": "/applause-main/static/js/1.d6ad0681.chunk.js",
+  "static/js/1.d6ad0681.chunk.js.map": "/applause-main/static/js/1.d6ad0681.chunk.js.map",
+  "static/css/2.395dddaf.chunk.css": "/applause-main/static/css/2.395dddaf.chunk.css",
+  "static/js/2.69fdfdef.chunk.js": "/applause-main/static/js/2.69fdfdef.chunk.js",
+  "static/js/2.69fdfdef.chunk.js.map": "/applause-main/static/js/2.69fdfdef.chunk.js.map",
+  "runtime~main.js": "/applause-main/static/js/runtime~main.5a38c739.js",
+  "runtime~main.js.map": "/applause-main/static/js/runtime~main.5a38c739.js.map",
+  "static/media/del.png": "/applause-main/static/media/del.a187cddb.png",
+  "static/media/clap.png": "/applause-main/static/media/clap.134f40a2.png",
+  "static/media/bg.avif": "/applause-main/static/media/bg.bd00e2cb.avif",
+  "static/media/anime.jfif": "/applause-main/static/media/anime.39b89122.jfif",
+  "static/media/concert.jfif": "/applause-main/static/media/concert.4fee25de.jfif",
+  "static/media/applause1.png": "/applause-main/static/media/applause1.5d08b6bf.png",
+  "static/css/2.395dddaf.chunk.css.map": "/applause-main/static/css/2.395dddaf.chunk.css.map",
+  "static/css/main.bcf83608.chunk.css.map": "/applause-main/static/css/main.bcf83608.chunk.css.map",
+  "index.html": "/applause-main/index.html",
+  "precache-manifest.5035cecafc1cebb36d728df58767eed3.js": "/applause-main/precache-manifest.5035cecafc1cebb36d728df58767eed3.js",
+  "service-worker.js": "/applause-main/service-worker.js"
 }
