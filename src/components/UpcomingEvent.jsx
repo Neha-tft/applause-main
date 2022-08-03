@@ -21,13 +21,19 @@ function UpcomingEvent() {
       setstate(event);
     };
     fetchEvent();
-  }, []);
+  }, [events]);
+  const removeHandler=(id)=>{
+const updatedEvent= events.filter((event)=>event.id !== id)
+fetch("https://applause-c51bd-default-rtdb.firebaseio.com/applause/events.json" , 
+{method : 'put', body:JSON.stringify(updatedEvent)})
+  }
   const eventList = events.map((event) => (
     <UpcomingEventList
       key={event.id}
       title={event.title}
       description={event.description}
       id={event.id}
+      remove = {removeHandler}
     />
   ));
   return <ul>{eventList}</ul>;

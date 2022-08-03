@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from "react";
 import PlaceList from "./PlaceList";
+import social from '../images/social.png'
 
 function Place() {
   const [places, setPlaces] = useState([{ name: "", url: "" }]);
@@ -91,16 +92,21 @@ function Place() {
         <ul>{placeList}</ul>
         {add && (
           <card-4>
-            <label htmlFor="">url</label>{" "}
-            <input onChange={urlHandler} placeholder="url" />
-            <label htmlFor="">name</label>
-            <input onChange={nameHandler} type="text" />
-            <button onClick={submitHandler}>submit</button>
+            <form className="box-2">
+            <div className="division"> 
+            <label htmlFor=""> Url</label>
+            <input onChange={urlHandler} placeholder="enter url..." /> <br />
+            <label htmlFor=""> Site</label>
+            <input onChange={nameHandler} type="text"  placeholder="enter site..."/> <br />
+            <button className="division-button" onClick={submitHandler}><b>Submit</b></button>
+            </div>
+            </form>
+            
+            
           </card-4>
         )}
-        <button onClick={onClickHandler} className="btn-4">
-          +
-        </button>
+        
+        <img src={social} alt="" onClick={onClickHandler} className="social" height='20px' width='20px'/>
       </div>
     </div>
   );

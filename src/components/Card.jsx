@@ -1,31 +1,28 @@
 import React from "react";
-// import Events from './Events'
-// import {useNavigate} from 'react-router-dom';
 import UpcomingEvent from "./UpcomingEvent";
+import { useNavigate } from "react-router-dom";
+import add1 from '../images/add1.png'
 
 export default function Card() {
-  // const Navigate = useNavigate();
-  // const navigate = useNavigate();
-  // const History= createBrowserHistory();
+  const navigate = useNavigate();
+  function Event() {
+    navigate("/events");
+  }
 
-  //  function Event (){
-
-  // navigate("/events")
-
-  //  }
   return (
     <div>
       <div className="card_2">
-        {/* <img src="applause.jfif" alt=""> --> */}
         <h3 className="text-bg">
           <b>Applause Community</b>
         </h3>
-        <h5 className="text">2000 Fans &ensp; 1000 Superfans</h5>
+        <h5 className="text">20 Fans &ensp; 2 Superfans</h5>
         <h6 className="txt">Neha Mishra joined applause in july 2022</h6>
       </div>
 
       <h5 className="events">
-        <b>Upcoming Events</b>{" "}
+        <b >Upcoming Events</b> &ensp;
+        
+        <img className="button" src={add1} alt="" onClick={Event} height='30px' width='30px'/>
       </h5>
 
       {/* <div className="card_3">

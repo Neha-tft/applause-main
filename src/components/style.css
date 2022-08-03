@@ -1,9 +1,6 @@
-@media(min-width:971px) {
-
+@media (min-width: 971px) {
   .container {
     margin-top: 0.9rem;
-    /* display: flex;
-    justify-content: space-between; */
   }
 
   .nav {
@@ -18,12 +15,10 @@
     display: flex;
     margin-top: -60px;
     color: black;
-
   }
 
   .nav-link {
     margin-left: -30px;
-
   }
 
   .logo {
@@ -144,8 +139,8 @@
     height: 10rem;
     background-size: cover;
     border-radius: 20px;
-    box-shadow: 0px 5px 5px 0px rgb(185, 98, 185)
-      /* filter: blur(2px);
+    box-shadow: 0px 5px 5px 0px rgb(185, 98, 185);
+    /* filter: blur(2px);
   -webkit-filter: blur(2px); */
   }
 
@@ -181,7 +176,6 @@
     margin-top: 40px;
     width: 500px;
     margin-left: 12rem;
-
   }
 
   .card_3:hover {
@@ -239,7 +233,6 @@
     height: 20rem;
   }
 
-
   .social-link {
     display: flex;
     justify-content: center;
@@ -251,14 +244,12 @@
   }
 
   .content-footer {
-
     margin-left: 25rem;
     color: white;
     clear: both;
     /* float: left; */
     display: flex;
     /* word-spacing: 5px; */
-
   }
 
   .row1 {
@@ -266,7 +257,6 @@
     flex-direction: row;
     justify-content: center;
     margin-top: 30px;
-
   }
 
   li {
@@ -284,12 +274,9 @@
   }
 }
 
-
-@media(max-width:600px) {
+@media (max-width: 480px) {
   .container {
     margin-top: 0.9rem;
-    /* display: flex;
-      justify-content: space-between; */
   }
 
   .nav {
@@ -304,12 +291,10 @@
     display: flex;
     margin-top: -60px;
     color: black;
-
   }
 
   .nav-link {
     margin-left: -30px;
-
   }
 
   .logo {
@@ -326,11 +311,10 @@
 
   .image_anime {
     border-radius: 50%;
-    margin-left: -1rem;
+    margin-left: -2rem;
     margin-top: -3rem;
     height: 60px;
     width: 50px;
-
   }
 
   .p {
@@ -433,8 +417,8 @@
     height: 10rem;
     background-size: cover;
     border-radius: 20px;
-    box-shadow: 0px 5px 5px 0px rgb(185, 98, 185)
-      /* filter: blur(2px);
+    box-shadow: 0px 5px 5px 0px rgb(185, 98, 185);
+    /* filter: blur(2px);
     -webkit-filter: blur(2px); */
   }
 
@@ -470,7 +454,6 @@
     margin-top: 40px;
     width: 500px;
     margin-left: -1rem;
-
   }
 
   .card_3:hover {
@@ -528,7 +511,6 @@
     height: 20rem;
   }
 
-
   .social-link {
     display: flex;
     justify-content: center;
@@ -540,14 +522,12 @@
   }
 
   .content-footer {
-
     margin-left: 4rem;
     color: white;
     clear: both;
     /* float: left; */
     display: flex;
     /* word-spacing: 5px; */
-
   }
 
   .row1 {
@@ -555,7 +535,6 @@
     flex-direction: row;
     justify-content: center;
     margin-top: 30px;
-
   }
 
   li {

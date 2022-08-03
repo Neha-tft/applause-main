@@ -1,39 +1,39 @@
-import React from 'react'
+// import React from 'react'
 
-const AddEvent = () => {
-  return (
-    <div className="container">
+// const AddEvent = () => {
+//   return (
+//     <div className="container">
         
     
-    <div className="box">
+//     <div className="box">
       
-      <input
-        className="form-input"
-        type="text"
-        placeholder="Enter your first name"
+//       <input
+//         className="form-input"
+//         type="text"
+//         placeholder="Enter your first name"
        
-      />
-      <br />
-      <input
-        className="form-input"
-        type="text"
-        placeholder="Enter your last name"
+//       />
+//       <br />
+//       <input
+//         className="form-input"
+//         type="text"
+//         placeholder="Enter your last name"
         
-      />
-      <br />
-      <input
-        className="form-input"
-        type="email"
-        placeholder="Enter your Email address"
+//       />
+//       <br />
+//       <input
+//         className="form-input"
+//         type="email"
+//         placeholder="Enter your Email address"
         
-      />
-      <br />
+//       />
+//       <br />
       
-      <button className="form-button" >Submit</button>
+//       <button className="form-button" >Submit</button>
     
-  </div>
-  </div>
+//   </div>
+//   </div>
     
-  )
-}
-export default AddEvent;
+//   )
+// }
+// export default AddEvent;

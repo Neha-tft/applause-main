@@ -1,20 +1,21 @@
 import React from "react";
 import { useState } from "react";
+import { useNavigate } from "react-router-dom";
 import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 
 function Events() {
   const [details, setDetails] = useState({
-    fName: "",
-    lName: "",
-    email: "",
+    title: "",
+    description: "",
   });
+  const navigate = useNavigate();
 
   const PostData = async (e) => {
     e.preventDefault();
 
-    const { fName, lName, email } = details;
-    if (fName.trim() === "" || lName.trim() === "" || email.trim() === "") {
+    const { title, description } = details;
+    if (title.trim() === "" || description.trim() === "") {
       toast.error("Error", {
         position: "top-center",
         theme: "dark",
@@ -37,44 +38,39 @@ function Events() {
         progress: undefined,
       });
       const res = await fetch(
-        "https://events-ac31b-default-rtdb.firebaseio.com/events.json",
+        "https://applause-c51bd-default-rtdb.firebaseio.com/applause/events.json",
         {
           method: "POST",
           headers: {
             "Content-Type": "application/json",
           },
           body: JSON.stringify({
-            fName,
-            lName,
-            email,
+            title,
+            description,
           }),
         }
       );
+      navigate("/");
     }
   };
 
   return (
-    <div className="container">
+    <div className="container-2">
       <div className="box">
         <input
           className="form-input"
           type="text"
-          placeholder="Enter your first name"
-          onChange={(e) => setDetails({ ...details, fName: e.target.value })}
+          placeholder="Title"
+          onChange={(e) => setDetails({ ...details, title: e.target.value })}
         />
         <br />
         <input
           className="form-input"
           type="text"
-          placeholder="Enter your last name"
-          onChange={(e) => setDetails({ ...details, lName: e.target.value })}
-        />
-        <br />
-        <input
-          className="form-input"
-          type="email"
-          placeholder="Enter your Email address"
-          onChange={(e) => setDetails({ ...details, email: e.target.value })}
+          placeholder="Description"
+          onChange={(e) =>
+            setDetails({ ...details, description: e.target.value })
+          }
         />
         <br />
 

@@ -1,7 +1,7 @@
 import React from "react";
-import bg from "../images/bg.avif"
-import anime from "../images/anime.jfif"
-import book from "../images/book.webp"
+import bg from "../images/bg.avif";
+import anime from "../images/anime.jfif";
+import book from "../images/book.png";
 
 function Banner() {
   return (
@@ -14,7 +14,7 @@ function Banner() {
         className="image_anime"
         src={anime}
         alt=""
-        width="8%"
+        width="7%"
         height="80rem"
       />
 
@@ -25,7 +25,7 @@ function Banner() {
           </strong>
         </h2>
         <h5>
-          <b> @nehac</b>
+          <b> @neha</b>
         </h5>
       </div>
       <div className="p_2">
@@ -36,7 +36,6 @@ function Banner() {
       </div>
 
       <button className="btn-1">
-        {" "}
         <b>Follow</b>
       </button>
       <button className="btn-2">
@@ -44,9 +43,8 @@ function Banner() {
       </button>
 
       <div className="work">
-        {" "}
         Neha is <span className="read">&ensp;reading book&ensp;</span>
-        <img className="book" src={book} alt="" height="40px" /> 12 july
+        <img className="book" src={book} alt="" height="25px" />&ensp; 12 july
       </div>
     </>
   );
