@@ -96,10 +96,11 @@
     margin-top: -33%;
     width: 16%;
     margin-left: 800px;
-    height: 300px;
+    /* height: 300px; */
     position: relative;
     border-radius: 20px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    /* overflow:hidden; */
   }
   .card:hover {
     transform: scale(1.1, 1.1);
@@ -128,8 +129,7 @@
   .minus {
     float: right;
     margin-right: 20px;
-    /* width:25px;
-    height: 25px; */
+   
   }
   .btn4 {
     margin-left: 20px;
@@ -149,16 +149,12 @@
     background-color: white;
     text-align: center;
     border-radius: 10px;
+    position: absolute;
+    
   }
-  /* .division {
 
-    margin-left: 210px;
-    margin-top: -180px;
-    color: white;
-  } */
   .division-button {
     margin-top: 10px;
-    /* margin-left: 65px; */
     border: none;
     background-color: grey;
   }
@@ -316,7 +312,7 @@
     margin-left: 90px;
     border-radius: 50%;
   }
-  
+
   .box {
     margin-top: 100px;
 
@@ -324,7 +320,7 @@
     margin-left: 460px;
     width: 250px;
     height: 270px;
-    
+
     border: 2px solid rgb(11, 11, 12);
     background-color: white;
 
@@ -332,9 +328,9 @@
     background-color: rgb(210, 163, 210);
     border-radius: 10px;
   }
-.box:hover{
-  transform: scale(1.2,1.2);
-}
+  .box:hover {
+    transform: scale(1.2, 1.2);
+  }
   .form-input {
     display: flex;
     align-items: center;
@@ -344,7 +340,7 @@
     margin-bottom: 10px;
     color: black;
     border: 2px solid rgb(0, 0, 0);
-    
+
     background-color: lavender;
     border-radius: 5px;
   }
@@ -352,13 +348,11 @@
     margin-left: 70px;
     background-color: lavender;
     border-radius: 5px;
-    
   }
 
   .button:hover {
     transform: scale(1.2, 1.2);
   }
- 
 }
 @media (min-width: 481px) and (max-width: 970px) {
   .container {
@@ -459,7 +453,7 @@
     margin-top: 8%;
     width: 35%;
     margin-left: 32%;
-    height: 300px;
+    /* height: 300px; */
     position: relative;
     border-radius: 20px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
@@ -633,7 +627,7 @@
   .social-link {
     display: flex;
     justify-content: center;
-    
+
     gap: 2rem;
     size: 10px;
     font-size: small;
@@ -646,7 +640,7 @@
 
   .content-footer {
     /* margin-left: 25rem; */
-  
+
     color: white;
     clear: both;
 
@@ -654,13 +648,11 @@
     margin-top: 40px;
   }
 
-
-  
   .row1 {
     display: flex;
     justify-content: center;
   }
-  
+
   li {
     margin-left: 30px;
   }
@@ -705,8 +697,8 @@
     background-color: lavender;
     border: 2px solid black;
   }
-  .box:hover{
-    transform: scale(1.2,1.2);
+  .box:hover {
+    transform: scale(1.2, 1.2);
   }
   .form-button {
     margin-left: 70px;
@@ -817,7 +809,7 @@
     margin-top: 30px;
     width: 50%;
     margin-left: 25%;
-    height: 300px;
+    /* height: 300px; */
     position: relative;
     border-radius: 20px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
@@ -1046,8 +1038,8 @@
     border-radius: 10px;
     border: 2px solid black;
   }
-  .box:hover{
-    transform: scale(1.2,1.2);
+  .box:hover {
+    transform: scale(1.2, 1.2);
   }
   .form-input {
     display: flex;
@@ -1058,10 +1050,9 @@
     margin-bottom: 10px;
     color: black;
     border: 2px solid rgb(0, 0, 0);
-    
+
     background-color: lavender;
     border-radius: 5px;
-    
   }
   .form-button {
     margin-left: 70px;
