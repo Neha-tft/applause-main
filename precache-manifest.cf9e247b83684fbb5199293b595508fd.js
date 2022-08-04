@@ -1,23 +1,23 @@
 self.__precacheManifest = [
   {
-    "revision": "79b0a9399535c0a69c1c",
-    "url": "/applause-main/static/css/main.bcf83608.chunk.css"
+    "revision": "03280c1d28180259917c",
+    "url": "/applause-main/static/css/main.0108a916.chunk.css"
   },
   {
-    "revision": "79b0a9399535c0a69c1c",
-    "url": "/applause-main/static/js/main.79b0a939.chunk.js"
+    "revision": "03280c1d28180259917c",
+    "url": "/applause-main/static/js/main.03280c1d.chunk.js"
   },
   {
     "revision": "d6ad0681366502a3b3ea",
     "url": "/applause-main/static/js/1.d6ad0681.chunk.js"
   },
   {
-    "revision": "69fdfdef10bd657551fe",
-    "url": "/applause-main/static/css/2.395dddaf.chunk.css"
+    "revision": "c75e9ce3869bdf9c15c2",
+    "url": "/applause-main/static/css/2.a44829b1.chunk.css"
   },
   {
-    "revision": "69fdfdef10bd657551fe",
-    "url": "/applause-main/static/js/2.69fdfdef.chunk.js"
+    "revision": "c75e9ce3869bdf9c15c2",
+    "url": "/applause-main/static/js/2.c75e9ce3.chunk.js"
   },
   {
     "revision": "5a38c73996b269b0befa",
@@ -48,7 +48,7 @@ self.__precacheManifest = [
     "url": "/applause-main/static/media/applause1.5d08b6bf.png"
   },
   {
-    "revision": "f8788d2ae657ce166ab969f3bca93b3e",
+    "revision": "d4f3979e1ac3ea00aea3ffa348fc5827",
     "url": "/applause-main/index.html"
   }
 ];
