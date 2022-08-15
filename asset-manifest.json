@@ -1,7 +1,7 @@
 {
-  "main.css": "/applause-main/static/css/main.226599a8.chunk.css",
-  "main.js": "/applause-main/static/js/main.f388ec83.chunk.js",
-  "main.js.map": "/applause-main/static/js/main.f388ec83.chunk.js.map",
+  "main.css": "/applause-main/static/css/main.ba55d870.chunk.css",
+  "main.js": "/applause-main/static/js/main.4866c036.chunk.js",
+  "main.js.map": "/applause-main/static/js/main.4866c036.chunk.js.map",
   "static/js/1.d6ad0681.chunk.js": "/applause-main/static/js/1.d6ad0681.chunk.js",
   "static/js/1.d6ad0681.chunk.js.map": "/applause-main/static/js/1.d6ad0681.chunk.js.map",
   "static/css/2.a44829b1.chunk.css": "/applause-main/static/css/2.a44829b1.chunk.css",
@@ -15,9 +15,9 @@
   "static/media/anime.jfif": "/applause-main/static/media/anime.39b89122.jfif",
   "static/media/concert.jfif": "/applause-main/static/media/concert.4fee25de.jfif",
   "static/media/applause1.png": "/applause-main/static/media/applause1.5d08b6bf.png",
-  "static/css/main.226599a8.chunk.css.map": "/applause-main/static/css/main.226599a8.chunk.css.map",
   "static/css/2.a44829b1.chunk.css.map": "/applause-main/static/css/2.a44829b1.chunk.css.map",
+  "static/css/main.ba55d870.chunk.css.map": "/applause-main/static/css/main.ba55d870.chunk.css.map",
   "index.html": "/applause-main/index.html",
-  "precache-manifest.0317472bcc0312c5c253da883801d7bd.js": "/applause-main/precache-manifest.0317472bcc0312c5c253da883801d7bd.js",
+  "precache-manifest.64664f514d562f974ee46fdb221e7505.js": "/applause-main/precache-manifest.64664f514d562f974ee46fdb221e7505.js",
   "service-worker.js": "/applause-main/service-worker.js"
 }
