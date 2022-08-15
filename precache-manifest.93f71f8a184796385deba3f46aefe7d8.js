@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "03280c1d28180259917c",
-    "url": "/applause-main/static/css/main.0108a916.chunk.css"
+    "revision": "a47018170bcd765bd54f",
+    "url": "/applause-main/static/css/main.c7646bcf.chunk.css"
   },
   {
-    "revision": "03280c1d28180259917c",
-    "url": "/applause-main/static/js/main.03280c1d.chunk.js"
+    "revision": "a47018170bcd765bd54f",
+    "url": "/applause-main/static/js/main.a4701817.chunk.js"
   },
   {
     "revision": "d6ad0681366502a3b3ea",
@@ -48,7 +48,7 @@ self.__precacheManifest = [
     "url": "/applause-main/static/media/applause1.5d08b6bf.png"
   },
   {
-    "revision": "d4f3979e1ac3ea00aea3ffa348fc5827",
+    "revision": "72cc1790db2f3b06eaa0e47ae01ef5f4",
     "url": "/applause-main/index.html"
   }
 ];
