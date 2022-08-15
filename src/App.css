@@ -160,7 +160,7 @@
   }
 
   .card_2 {
-    margin-top: 150px;
+    margin-top: 20%;
     margin-right: 12rem;
     background-repeat: no-repeat;
 
@@ -806,11 +806,12 @@
   }
 
   .card {
-    margin-top: 30px;
+    margin-top: 50px;
     width: 50%;
     margin-left: 25%;
     /* height: 300px; */
     position: relative;
+    border: black;
     border-radius: 20px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   }
@@ -847,8 +848,8 @@
   }
   .social {
     margin-left: 140px;
-    margin-top: -220px;
-    position: relative;
+    margin-top: 30px;
+    position: absolute;
   }
   .box-2 {
     width: 200px;
@@ -871,7 +872,7 @@
   }
 
   .card_2 {
-    margin-top: 30px;
+    margin-top: 60px;
     background-repeat: no-repeat;
 
     background-image: url("./images/applause1.png");
